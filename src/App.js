@@ -114,7 +114,7 @@ const App = () => {
                 <label htmlFor="" className="font-bold text-xl text-white text-center">
                   Verify your phone number
                 </label>
-                <PhoneInput country={"vi"} value={ph} onChange={setPh} />
+                <PhoneInput country={"vn"} value={ph} onChange={setPh} />
                 <button
                   onClick={onSignup}
                   className="bg-emerald-600 w-full flex gap-1 items-center justify-center py-2.5 text-white rounded"
